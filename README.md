@@ -1,8 +1,9 @@
 # RestartPlugin
 
-Restart notifications just like the minecraft server 2b2t
-
-Completely configurable messages
+Оригинальный плагин был сделан: https://github.com/moom0o/RestartPlugin
+На данный момент я сменил только с Bukkit.shutdown() на Bukkit.spigot().restart()
+Так это без bash скрипта с автоперезапуском получается не авто рестарт, а авто выключение сервера.
+В будущем думаю довести до ума некоторые моменты. На данный момент как-то так.
 
 ```
 # Minecraft restart notifications plugin by moo
