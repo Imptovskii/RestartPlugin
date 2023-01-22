@@ -22,7 +22,7 @@ public class RestartPlugin extends JavaPlugin implements Listener {
 
     public void onEnable() {
         saveDefaultConfig();
-        System.out.println("[ENABLED] moomoo's 2b2t restart notifications plugin");
+        System.out.println("[ENABLED] 2b2t restart notifications plugin");
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
 
         ZonedDateTime now = ZonedDateTime.now(ZoneId.of(get("Timezone")));
@@ -95,7 +95,7 @@ public class RestartPlugin extends JavaPlugin implements Listener {
         sleep(300000);
         b(translate(s.replace("%time%", "5").replace("%timeword%", get("minutestring"))));
         sleep(180000);
-        b(translate(s.replace("%time%", "2").replace("%timeword%", get("minutestring"))));
+        b(translate(s.replace("%time%", "2").replace("%timeword%", get("minutesstring"))));
         sleep(105000);
         b(translate(s.replace("%time%", "15").replace("%timeword%", get("secondsstring"))));
         sleep(1000);
