@@ -1,7 +1,5 @@
 # RestartPlugin
 
-![изображение](https://user-images.githubusercontent.com/82046704/213912233-8b03fffe-0489-4e1e-ba0c-2ed38f7edae4.png)
-
 Оригинальный плагин был сделан: https://github.com/moom0o/RestartPlugin
 
 На данный момент я сменил только с Bukkit.shutdown() на Bukkit.spigot().restart()
@@ -27,6 +25,7 @@ finalstring: "&e[SERVER] Сервер перезапускается..."
 minutestring: "минут..."
 minutesstring: "минуты..."
 secondsstring: "секунд..."
+alt-secondsstring: "секунды..."
 secondstring: "секунду..."
 
 # REBOOT AT LOW TPS SETTINGS
