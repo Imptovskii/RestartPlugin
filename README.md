@@ -2,6 +2,8 @@
 
 Оригинальный плагин был сделан: https://github.com/moom0o/RestartPlugin
 
+![изображение](https://user-images.githubusercontent.com/82046704/213913206-513c34db-edcb-4117-8849-4106e618f711.png)
+
 На данный момент я сменил только с Bukkit.shutdown() на Bukkit.spigot().restart()
 
 Так это без bash скрипта с автоперезапуском получается не авто рестарт, а авто выключение сервера.
