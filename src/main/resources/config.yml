@@ -13,6 +13,7 @@ finalstring: "&e[SERVER] Сервер перезапускается..."
 minutestring: "минут..."
 minutesstring: "минуты..."
 secondsstring: "секунд..."
+alt-secondsstring: "секунды..."
 secondstring: "секунду..."
 
 # REBOOT AT LOW TPS SETTINGS

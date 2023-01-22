@@ -119,11 +119,11 @@ public class RestartPlugin extends JavaPlugin implements Listener {
         sleep(1000);
         b(translate(s.replace("%time%", "5").replace("%timeword%", get("secondsstring"))));
         sleep(1000);
-        b(translate(s.replace("%time%", "4").replace("%timeword%", get("secondsstring"))));
+        b(translate(s.replace("%time%", "4").replace("%timeword%", get("alt-secondsstring"))));
         sleep(1000);
-        b(translate(s.replace("%time%", "3").replace("%timeword%", get("secondsstring"))));
+        b(translate(s.replace("%time%", "3").replace("%timeword%", get("alt-secondsstring"))));
         sleep(1000);
-        b(translate(s.replace("%time%", "2").replace("%timeword%", get("secondsstring"))));
+        b(translate(s.replace("%time%", "2").replace("%timeword%", get("alt-secondsstring"))));
         sleep(1000);
         b(translate(s.replace("%time%", "1").replace("%timeword%", get("secondstring"))));
         sleep(1000);
